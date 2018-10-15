@@ -1,3 +1,13 @@
-body{
+body {
   background-color: beige;
+}
+
+p {
+  font-family: serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-weight: 400;
 }
