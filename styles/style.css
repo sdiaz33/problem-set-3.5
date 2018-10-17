@@ -12,6 +12,54 @@ h2 {
   font-weight: 400;
 }
 
-image1 {
-  
+a[href$="html"] {
+  color: blue;
+}
+
+a[href*="https://www.nytimes.com/2018/08/27/science/cave-bears-dna-extinction.html"] {
+  color: skyblue;
+}
+
+a[href*="http://igbconline.org/conserving-grizzly-populations-2/"] {
+  color: skyblue;
+}
+
+a[href*="https://polarbearsinternational.org/climate-change"] {
+  color: skyblue;
+}
+
+a[href*="https://www.ucvts.tec.nj.us/domain/16#calendar4326/20181009/month"] {
+  color: #4B0082;
+}
+
+a[href*="mailto:info@example.com"] {
+  color: #4B0082;
+}
+
+.intro {
+  font-weight: lighter;
+}
+
+.paragraphtitle {
+  font-style: italic;
+}
+
+#paragraph1 {
+  font-weight: bold;
+}
+
+#paragraph2 {
+  font-weight: bold;
+}
+
+#paragraph3 {
+  font-weight: bold;
+}
+
+img {
+  border: 2px solid;
+  border-width: thick;
+  border-color: red yellow green blue;
+  margin: 5px;
+  padding: 5px;
 }
