@@ -56,10 +56,22 @@ a[href*="mailto:info@example.com"] {
   font-weight: bold;
 }
 
-img {
-  border: 2px solid;
+div img {
+  border: 8px solid;
   border-width: thick;
   border-color: red yellow green blue;
   margin: 5px;
-  padding: 5px;
+}
+
+img {
+  border: 2px solid;
+  border-width: medium;
+  border-color: black;
+  margin: 5px;
+  padding: 6px;
+}
+
+
+div span {
+  background-color: skyblue;
 }
