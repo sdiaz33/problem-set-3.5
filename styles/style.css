@@ -12,28 +12,47 @@ h2 {
   font-weight: 400;
 }
 
-a[href$="html"] {
+a[href$="html"]:hover {
   color: blue;
 }
 
-a[href*="https://www.nytimes.com/2018/08/27/science/cave-bears-dna-extinction.html"] {
+a[href*="https://www.nytimes.com/2018/08/27/science/cave-bears-dna-extinction.html"]:link {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a[href*="https://www.nytimes.com/2018/08/27/science/cave-bears-dna-extinction.html"]:hover {
   color: skyblue;
 }
 
-a[href*="http://igbconline.org/conserving-grizzly-populations-2/"] {
+a[href*="http://igbconline.org/conserving-grizzly-populations-2/"]:hover {
   color: skyblue;
 }
 
-a[href*="https://polarbearsinternational.org/climate-change"] {
+a[href*="http://igbconline.org/conserving-grizzly-populations-2/"]:link {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a[href*="https://polarbearsinternational.org/climate-change"]:hover {
   color: skyblue;
 }
 
-a[href*="https://www.ucvts.tec.nj.us/domain/16#calendar4326/20181009/month"] {
-  color: #4B0082;
+a[href*="https://polarbearsinternational.org/climate-change"]:link {
+  color: skyblue;
+  text-decoration: none;
 }
 
-a[href*="mailto:info@example.com"] {
-  color: #4B0082;
+a#UCVTS:hover {
+  color: blue;
+}
+
+a[href*="mailto:info@example.com"]:hover {
+  color: blue;
+}
+
+a.button:hover {
+  color: red;
 }
 
 .intro {
@@ -57,16 +76,21 @@ a[href*="mailto:info@example.com"] {
 }
 
 div img {
+  height: 120px;
+  width: 250px;
   border: 8px solid;
-  border-width: thick;
+  border-width: 10px;
   border-color: red yellow green blue;
   margin: 5px;
 }
 
-img {
+span img {
+  height: 100px;
+  width: 150px;
   border: 2px solid;
   border-width: medium;
   border-color: black;
+  border-radius: 25px;
   margin: 5px;
   padding: 6px;
 }
@@ -74,4 +98,12 @@ img {
 
 div span {
   background-color: skyblue;
+}
+
+div table {
+  background-color: yellow;
+}
+
+#titledecription {
+  text-decoration: overline;
 }
